@@ -1,0 +1,28 @@
+/* border-box includes padding and borders in an element's declared width. */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #f3f5f8;
+  color: #203047;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+/* A maximum width keeps text readable; fluid padding fits smaller screens. */
+main { max-width: 1050px; margin: 0 auto; padding: clamp(1rem, 4vw, 3rem); }
+h1, h2 { line-height: 1.2; }
+h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); }
+.eyebrow { color: #4b5970; font-size: 0.85rem; }
+.widget { background: white; border: 1px solid #d3dce6; border-radius: 12px; padding: 1.5rem; }
+
+/* Scroll just the table on narrow screens instead of widening the page. */
+.table-container { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; white-space: nowrap; }
+caption { text-align: left; color: #4b5970; padding: 0.5rem 0 1rem; }
+th, td { text-align: left; padding: 0.75rem; border-bottom: 1px solid #d3dce6; }
+thead { background: #eaf0f7; }
+tbody tr:nth-child(even) { background: #f7f9fc; }
+/* Keep numeric columns aligned so their magnitudes are easy to compare. */
+th:nth-child(n+4), td:nth-child(n+4) { text-align: right; font-variant-numeric: tabular-nums; }
+.error { color: #a11919; }

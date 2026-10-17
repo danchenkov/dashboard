@@ -1,0 +1,8 @@
+[
+  { "date": "2026-10-01", "product": "Notebook", "region": "West", "units": 12, "revenue": 96 },
+  { "date": "2026-10-02", "product": "Desk lamp", "region": "East", "units": 4, "revenue": 140 },
+  { "date": "2026-10-03", "product": "Notebook", "region": "North", "units": 9, "revenue": 72 },
+  { "date": "2026-10-04", "product": "Pen set", "region": "South", "units": 15, "revenue": 150 },
+  { "date": "2026-10-05", "product": "Desk lamp", "region": "West", "units": 6, "revenue": 210 },
+  { "date": "2026-10-06", "product": "Pen set", "region": "East", "units": 0, "revenue": 0 }
+]
