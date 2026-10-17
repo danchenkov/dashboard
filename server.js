@@ -2,7 +2,7 @@
 // All imports below are built into Node, so no npm install is necessary.
 import { createServer } from "node:http";
 import { readFile, realpath } from "node:fs/promises";
-import { dirname, extname, resolve, sep } from "node:path";
+import { extname, resolve, sep } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 // Resolve from this file so starting Node in another directory still works.
